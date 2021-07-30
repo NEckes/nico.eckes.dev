@@ -144,7 +144,7 @@ $('#contactForm').validate({
             },
             error: function () {
                 sLoader.fadeOut();
-                mWarning.html("Something went wrong. Please mail me manually by contact@eckes.dev");
+                mWarning.html("Something went wrong. Please mail me manually at contact@eckes.dev");
                 mWarning.fadeIn();
             }
         });
